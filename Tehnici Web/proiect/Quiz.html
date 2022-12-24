@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Taxi Driver -> Quiz</title>
+	<link rel="icon" type="image/x-icon" href="poze/movie-ticket.png">
+	<link rel="stylesheet" href="stil.css">
+</head>
+
+<body>
+	<div class="toggle">
+		<button id="light" class="light" title="Light mode">
+			<img id="buton_light" src="poze/sunrise.png" width="40" height="40">
+			<div>Luminos</div>
+		</button>
+		<button id="dark" class="dark" title="Dark mode">
+			<img id="buton_light" src="poze/night.png" width="40" height="40">
+			<div>Întunecat</div>
+		</button>
+	  </div>
+	<div class="coloana stanga">
+		<img id="poster" src="poze/poster.jpg" alt="Poster" width="283" height="430" title="Posterul filmului">
+		
+		<br>
+		
+		<header>
+			<h1 title="Titlul filmului">Taxi Driver</h1>
+		</header>
+		
+		<div class="meniu">
+			<button class="buton">Navigare rapidă</button>
+			<nav class="continut">
+				<a id="imdb" href="https://www.imdb.com/title/tt0075314/" target="_blank">Pagina IMDb</a>
+				<a href="Index.html">Pagina principală</a>
+				<a href="Distribuție.html" target="_self">Distribuție</a>
+				<a href="Galerie.html">Galerie</a>
+				<a href="Review-uri.html">Review-uri</a>
+				<a href="Quiz.html">Quiz</a>
+			</nav>
+		</div>
+	</div>
+	
+	<div class="coloana dreapta" id="colquiz">
+		<h2>Câte știi despre film?</h2>
+		<div id="quiz"></div>
+		<button id="submit">GATA!</button>
+		<div id="results"></div>
+		<div class="info">Apasă tasta F pentru a primi un RANDOM FACT despre film!</div>
+	</div>
+<script type="text/javascript" src="scriptQuiz.js"></script>
+</body>
+
+</html>
